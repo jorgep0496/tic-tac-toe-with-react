@@ -1,0 +1,28 @@
+.tilesContainer {
+    width: 600px;
+    height: 600px;
+    background-color: rgb(255, 238, 205);
+    margin: auto;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: #fffab3c9 0px 0px 60px 15px;
+    border-radius: 20px;
+    padding-left: 6px;
+    padding-top: 6px;
+    cursor: pointer;
+}
+
+.tile {
+    width: 33%;
+    height: 33%;
+    font-size: 100px;
+    border: 2px solid rgb(255, 252, 228);
+    border-radius: 3px;
+    float: left;
+    text-align: center;
+    line-height: 180px;
+    color: rgb(146, 131, 102);
+}
+
+.tile:hover {
+    background-color: rgba(253, 232, 191, 0.863);
+}
